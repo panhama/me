@@ -1,0 +1,35 @@
+.photography {
+    margin: 0 0 0 0;
+    background: url('../../assets/img/C5.jpg')no-repeat fixed;
+    /* background: url('../../assets/img/C4.jpg')repeat fixed; */
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.circle.small {
+	border: 1px dotted #ffffff;
+	border-radius: 50%;
+	width: 35rem;
+	height: 35rem;
+    margin: auto;
+	/* z-index: 86; */
+}
+
+.circle h1 {
+    text-align: center;
+    font-family:  Times, serif;
+    font-weight: 800;
+    font-size: 38px;
+    color: #ffffff;
+    text-decoration:line-through;
+    display: block;
+    letter-spacing: -0.02em;
+    word-spacing: -0.02em;
+    line-height: 1;
+    margin: 11.5rem auto;
+    
+}

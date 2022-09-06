@@ -1,0 +1,38 @@
+h1{
+  padding: 4rem;
+  text-align: center;
+}
+.PolaroidFrame { 
+    position: relative;
+    background-color: white;
+    height: 26rem;
+    width: 20rem !important;
+    border-style:solid;
+    border-width: 2px;
+    border-color: bisque;
+    
+  }
+  .PolaroidFrame img{
+    padding: 1.75rem 1.75rem 1.5rem 1rem;
+    width:300px;
+  }
+  .PolaroidFrame:hover{
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  }
+  .PolaroidFrame h3 {
+    text-align: center;
+    letter-spacing: 1rem;
+    color: rgb(83, 83, 83);
+  }
+
+.Dot{
+  background-color: #ffffff;
+  background-image:  radial-gradient(#ffd300 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#ffd300 0.9500000000000001px, #ffffff 0.9500000000000001px);
+  background-size: 34px 34px;
+  background-position: 0 0,17px 17px;
+  padding-bottom: 15rem;
+ 
+}
+
+

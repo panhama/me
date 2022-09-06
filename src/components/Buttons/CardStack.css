@@ -1,0 +1,56 @@
+
+.App{
+    min-height: 100vh;
+    /* display:flex; */
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: -15rem;
+}
+.card{
+    background: rgb(255, 255, 255);
+    padding: 2rem 30rem;
+}
+.card p{
+    margin: 0 0 0 0 ;
+    padding-top:1rem ;
+    line-height: 200%;
+}
+.expand{ 
+    width: 10rem;
+    height: 20rem;
+}
+.center{   
+    text-align: left;
+}
+
+
+
+/* 
+.App{
+    min-height: 100vh;
+    display:flex;
+    margin: -15rem;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: rgb(255, 255, 255);
+    padding: 1rem 30rem 2rem 2rem;
+    margin-block-end: 2rem;
+    margin-left: 30rem;
+    margin-right: 15rem;
+}
+.card p{
+    margin: 0 0 0 0 ;
+    padding-top:1rem ;
+    line-height: 200%;
+}
+.expand{ 
+    width: 10rem;
+    height: 20rem;
+}
+.center{   
+    text-align: left;
+} */
