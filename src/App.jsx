@@ -15,11 +15,13 @@ function App() {
     return (
     <Router basename={process.env.PUBLIC_URL}>
         <Routes>
+
     <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <Footer/>  </div>}/>
   
     <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
 
     <Route exact path="/portfolio" element={<Portfolio/>}/>
+
     </Routes>
     </Router>
     );
