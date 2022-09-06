@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'  
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  
 import {Navigation} from "./components/Navbar/Navbar";
 import {Banner} from "./components/Body/Banner";
 import Carousels from "./components/Body/Carousel";
@@ -15,11 +15,11 @@ function App() {
     return (
     <Router>
         <Routes>
-    <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <Footer/>  </div>}/>
+    <Route exact path="/rezoluti0n/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <Footer/>  </div>}/>
   
-    <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
+    <Route exact path="/rezoluti0n/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
 
-    <Route exact path="/portfolio" element={<Portfolio/>}/>
+    <Route exact path="/rezoluti0n/portfolio" element={<Portfolio/>}/>
     </Routes>
     </Router>
     );
