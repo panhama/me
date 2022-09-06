@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  
+import { BrowserRouter as Router, Route, Routes,HashRouter } from 'react-router-dom';  
 import {Navigation} from "./components/Navbar/Navbar";
 import {Banner} from "./components/Body/Banner";
 import Carousels from "./components/Body/Carousel";
@@ -13,7 +13,8 @@ import "./App.css";
 
 function App() {
     return (
-    <Router basename={process.env.PUBLIC_URL}>
+        // <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
         <Routes>
 
     <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <Footer/>  </div>}/>
@@ -23,7 +24,7 @@ function App() {
     <Route exact path="/portfolio" element={<Portfolio/>}/>
 
     </Routes>
-    </Router>
+    </HashRouter>
     );
 }
 
