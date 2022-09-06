@@ -13,7 +13,7 @@ import "./App.css";
 
 function App() {
     return (
-    <Router basename="/rezoluti0n/">
+    <Router basename={process.env.PUBLIC_URL}>
         <Routes>
     <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <Footer/>  </div>}/>
   
