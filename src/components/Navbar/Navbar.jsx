@@ -5,6 +5,8 @@ import logo from "../../assets/img/logo-small.png";
 import twitter from "..//../assets/img/twitter.svg";
 import instagram from "..//../assets/img/instagram.svg";
 import linkedin from "..//../assets/img/linkedin.svg";
+import github from "..//../assets/img/github.svg";
+import discord from "..//../assets/img/discord.svg";
 import "./Navbar.css";
 
 
@@ -47,9 +49,12 @@ export const Navigation = ()=>{
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://twitter.com/panha_ma"><img src={twitter} alt=""/></a>
-                <a href="https://www.linkedin.com/in/ma-panha-526417237/"><img src={linkedin} alt=""/></a>
+                {/* <a href="https://twitter.com/panha_ma"><img src={twitter} alt=""/></a> */}
+                <a href=""><img src={github} alt=""/></a>
+                <a href=""><img src={discord} alt=""/></a>
                 <a href="https://www.instagram.com/rezoluti0n/"><img src={instagram} alt=""/></a>
+                <a href="https://www.linkedin.com/in/ma-panha-526417237/"><img src={linkedin} alt=""/></a>
+               
               </div>
               {/* <button className="vvd"><span>Let’s Connect</span></button> */}
             </span>
