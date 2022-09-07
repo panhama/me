@@ -2,31 +2,41 @@
 color: #fcfcfc;
 font-weight:700;
 font-size: 7rem;
-margin: auto;
-padding-top: 20rem;
-display: inline-block;
+/* margin: 0 30rem; */
+
+display: inline;
 animation: fadeIn 6s linear infinite;
+position: absolute; 
+right: 15%;
+bottom : 45%;
+
+/* right: 10rem; */
 }
 
-.nameTitle {
+.panhama {
     white-space: nowrap;
     color: #526b69;
     font-weight:700;
     font-size: 7rem;
-    margin: 20rem 0 0 0;
     animation: updown 3s linear infinite;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     display: inline-block;
+    position: absolute; 
+    top: 40%;
+    left: 1%;
 } 
 .Title-no {
     color: #000000;
     font-weight:700;
     font-size: 7rem;
-    margin: -2rem 0 0 0;
-    display: inline-block;
+    margin: 0;
+    display: inline;
     animation: fadeIn2 6s infinite backwards;
     opacity: 60%;
+    position: absolute;
+    right: 14%;
+    bottom: 25%;
 }   
 @keyframes updown {
       0% {
@@ -70,3 +80,18 @@ animation: fadeIn 6s linear infinite;
     }
     
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .panhama {
+      margin: auto;
+      padding-top: 30rem;
+      font-size: 4rem;
+    }
+    .title {
+      margin: auto;
+      padding-top: 30rem;
+      font-size: 4rem;
+    }
+  }

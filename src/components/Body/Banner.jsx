@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // import { ArrowRightCircle } from "react-bootstrap-icons";
 // import CardStack from "../Buttons/CardStack";
 // import Button from "../../components/Buttons/Button";
+import img1 from "../../assets/img/crop.png";
 export const Banner = () => {
 
     const [loopNum, setLoopNum] = useState(0);
@@ -49,16 +50,24 @@ export const Banner = () => {
     }
 
     
-return <div>
-<div className="banner">
-    <h1 className="nameTitle">
+return <div className="banner">
+<Container>
+        <Row>
+            <Col md={6}>
+    <h1 className="panhama">
     PANHA MA
-        </h1>
-    <h1>
+        </h1> 
+        <h1>
         <span className="title">FULLSTACK</span> <span className="title-no">DEVELOPER</span> 
-        </h1>
-  {/* <Button text="Learn More"/>  */}
-    </div>
-   
+        </h1>       
+        {/* <img src={img1} style={{display:"inlineFlex",position:"absolute",right:"30rem",bottom:"10px"}} alt="yes"></img> */}
+    </Col>
+    <Col md={6}>
+    {/* <h1>
+        <span className="title">FULLSTACK</span> <span className="title-no">DEVELOPER</span> 
+        </h1> */}
+    </Col>
+    </Row>
+</Container>
 </div>
 };

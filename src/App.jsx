@@ -6,6 +6,7 @@ import Carousels from "./components/Body/Carousel";
 import Skills from "./components/Body/Skills";
 import PolaroidBase from "./components/Polaroid/PolaroidBase";
 import Photography from "./components/Body/Photography";
+import ContactMe from './components/Body/ContactMe';
 import Footer from './components/Footer/Footer';
 import Portfolio from "./components/Body/Portfolio";
 import "./App.css";
@@ -18,8 +19,9 @@ function App() {
     <HashRouter>
         <Routes>
 
-    <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <Footer/>  </div>}/>
   
+    <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <ContactMe/> <Footer/>  </div>}/>
+
     <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
 
     <Route exact path="/portfolio" element={<Portfolio/>}/>

@@ -13,14 +13,17 @@ html {
   background-size: cover;
   }
 
-.banner-crop{
+/* .banner-crop{
   background-image: url('./assets/img/crop.png');
-  height: 100vh;
-  display: flex;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}  
+
+  position: relative;
+  left: 50px;
+  
+  padding: 15rem;
+  
+ 
+  background-size: cover; 
+}   */
 .card-test{
     position: relative;
     margin: 10px;

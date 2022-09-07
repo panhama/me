@@ -6,8 +6,8 @@ import img2 from "../../assets/img/C2.jpg";
 import img3 from "../../assets/img/C3.jpg";
 import img4 from "../../assets/img/C4.jpg";
 import img5 from "../../assets/img/C8.jpg";
-
- 
+import img6 from "../../assets/img/9.jpg";
+import img7 from "../../assets/img/10.jpg";
 
 
 
@@ -32,7 +32,7 @@ function Carousels() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={img4}
+      src={img7}
       alt="Second slide"
     />
     <Carousel.Caption>
@@ -55,6 +55,30 @@ function Carousels() {
     <img
       className="d-block w-100"
       src={img3}
+      alt="Second slide"
+    />
+    <Carousel.Caption>
+      <h3>{"title"}</h3>
+      <p>{"text"}</p>
+    </Carousel.Caption>
+  </Carousel.Item>  
+
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={img4}
+      alt="Second slide"
+    />
+    <Carousel.Caption>
+      <h3>{"title"}</h3>
+      <p>{"text"}</p>
+    </Carousel.Caption>
+  </Carousel.Item>  
+
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={img6}
       alt="Second slide"
     />
     <Carousel.Caption>

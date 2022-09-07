@@ -7,38 +7,34 @@ import instagram from "..//../assets/img/instagram.svg";
 import linkedin from "..//../assets/img/linkedin.svg";
 import "./Navbar.css";
 
-import "./Navbar.css";
-// document.getElementsByClassName("logo").addEventListener("mouseover",(event)=>{console.log("hello world");})
-
 
 export const Navigation = ()=>{
 
   const [activeLink, setActiveLink] = useState('home');
-  const [scrolled, setScrolled] = useState(false);
+//   const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    }
+//   useEffect(() => {
+//     const onScroll = () => {
+//       if (window.scrollY > 50) {
+//         setScrolled(true);
+//       } else {
+//         setScrolled(false);
+//       }
+//     }
 
-    window.addEventListener("scroll", onScroll);
+//     window.addEventListener("scroll", onScroll);
 
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [])
-
+//     return () => window.removeEventListener("scroll", onScroll);
+//   }, [])
+//  <Navbar expand="md" className={scrolled ? "scrolled" : ""}> 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   }
-  return (<Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+  return (<Navbar expand="md">
+
         <Container>
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" className="logo" />
-            
-            {/* <img src={logo2} alt="Logo" className="logo" /> */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
