@@ -16,8 +16,8 @@ import "./App.css";
 function App() {
     return (
     // <Router basename={process.env.PUBLIC_URL}>
-    // <HashRouter basename={process.env.PUBLIC_URL}>
-    <Router>
+    <HashRouter >
+  
         <Routes>
 
   
@@ -28,8 +28,8 @@ function App() {
     <Route exact path="/portfolio" element={<Portfolio/>}/>
 <Route exact path="/contactme" element={<div>   <Navigation/> <ContactMe/> <Footer/>   </div>}></Route>
     </Routes>
-    </Router>
-    // </HashRouter>
+    
+    </HashRouter>
     // </Router>
     );
 }
