@@ -53,7 +53,7 @@ export const Navigation = ()=>{
               </div>
               {/* <button className="vvd"><span>Let’s Connect</span></button> */}
             </span>
-              <a href="/photography"> <ButtonGlow text={"CONTACT ME"}></ButtonGlow> </a>
+              <a href="#/contactme"> <ButtonGlow text={"CONTACT ME"}></ButtonGlow> </a>
           </Navbar.Collapse>
         </Container>
       </Navbar>

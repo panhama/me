@@ -9,9 +9,10 @@ import UX5 from "../../assets/img/UX5.png";
 import UX6 from "../../assets/img/UX6.png";
 import HiFi from "../../assets/img/HIGH FI.png";
 import { Container } from "react-bootstrap";
-
+import Portfolio from "./Portfolio";
 export default function Skills(params) {
     return <div className="skills">
+     <Portfolio/>
     <Container>
     {/* style={{position:"absolute",bottom:"-14rem"}} */}
     <Row>

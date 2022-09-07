@@ -25,7 +25,7 @@ function App() {
     <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
 
     <Route exact path="/portfolio" element={<Portfolio/>}/>
-
+<Route exact path="/contactme" element={<div>   <Navigation/> <ContactMe/> <Footer/>   </div>}></Route>
     </Routes>
     </HashRouter>
     // </Router>

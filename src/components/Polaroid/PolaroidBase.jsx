@@ -24,7 +24,7 @@ function Polaroid({img,location,style}) {
 }  
 function PolaroidBase() {
     return ( <div className="Dot">
-     <h1> A FEW OF MY FAVORITE MOMENTS</h1>
+     <h1 style={{padding: "4rem",textAlign: "center"}}> A FEW OF MY FAVORITE MOMENTS</h1>
         <Container>
         <Row>
          <Polaroid  img={img3} location="ARIZONA" style={{transform:"rotate(10deg)"}}/>
