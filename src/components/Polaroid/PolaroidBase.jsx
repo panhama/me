@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import Polaroid from './Polaroid';
+import './Polaroid.css';
 
 import img1 from "../../assets/img/1.jpg";
 import img2 from "../../assets/img/2.jpg";
