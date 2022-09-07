@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rezoluti0n/static/css/main.e6cbee43.css",
-    "main.js": "/rezoluti0n/static/js/main.968e96dd.js",
+    "main.css": "/rezoluti0n/static/css/main.20e3aaa0.css",
+    "main.js": "/rezoluti0n/static/js/main.86c39ca8.js",
     "static/media/crop.png": "/rezoluti0n/static/media/crop.97673d0dcbf40b261180.png",
     "static/media/C3.jpg": "/rezoluti0n/static/media/C3.77d16e0515ba6ec153f2.jpg",
     "static/media/C8.jpg": "/rezoluti0n/static/media/C8.77cb4f80d212340c0efe.jpg",
@@ -25,15 +25,19 @@
     "static/media/3.jpg": "/rezoluti0n/static/media/3.f8b989f9afb8c11dc7c1.jpg",
     "static/media/4.jpg": "/rezoluti0n/static/media/4.8f5d15518c0f24743ce8.jpg",
     "static/media/logo-small.png": "/rezoluti0n/static/media/logo-small.d2f3f142330eae190f9e.png",
+    "static/media/googleLogo.png": "/rezoluti0n/static/media/googleLogo.0590aaf0fe36e23dcc8c.png",
+    "static/media/utaLogo.png": "/rezoluti0n/static/media/utaLogo.e41d4d5bad6c5e410727.png",
+    "static/media/metaLogo.png": "/rezoluti0n/static/media/metaLogo.a8ac4eb44dc965839b0c.png",
+    "static/media/udemy.png": "/rezoluti0n/static/media/udemy.e1e87616e9d2a5ba6c48.png",
     "static/media/instagram.svg": "/rezoluti0n/static/media/instagram.6d5171d58481634549447b4387ccfe0c.svg",
     "static/media/twitter.svg": "/rezoluti0n/static/media/twitter.2ee4044b34e347393a7c55e49a299d8a.svg",
     "static/media/linkedin.svg": "/rezoluti0n/static/media/linkedin.8259b0d9422b332cc396206603fef145.svg",
     "index.html": "/rezoluti0n/index.html",
-    "main.e6cbee43.css.map": "/rezoluti0n/static/css/main.e6cbee43.css.map",
-    "main.968e96dd.js.map": "/rezoluti0n/static/js/main.968e96dd.js.map"
+    "main.20e3aaa0.css.map": "/rezoluti0n/static/css/main.20e3aaa0.css.map",
+    "main.86c39ca8.js.map": "/rezoluti0n/static/js/main.86c39ca8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6cbee43.css",
-    "static/js/main.968e96dd.js"
+    "static/css/main.20e3aaa0.css",
+    "static/js/main.86c39ca8.js"
   ]
 }
