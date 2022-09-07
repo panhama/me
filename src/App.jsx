@@ -4,7 +4,7 @@ import {Navigation} from "./components/Navbar/Navbar";
 import {Banner} from "./components/Body/Banner";
 import Carousels from "./components/Body/Carousel";
 import Skills from "./components/Body/Skills";
-import PolaroidBase from "./components/Polaroid/PolaroidBase";
+import {PolaroidBase} from "./components/Polaroid/PolaroidBase";
 import Photography from "./components/Body/Photography";
 import ContactMe from './components/Body/ContactMe';
 import Footer from './components/Footer/Footer';

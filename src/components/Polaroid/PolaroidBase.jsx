@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Polaroid from './Polaroid';
+// import Polaroid from './Polaroid';
 
 import img1 from "../../assets/img/1.jpg";
 import img2 from "../../assets/img/2.jpg";
@@ -9,7 +9,20 @@ import img3 from "../../assets/img/3.jpg";
 import img4 from "../../assets/img/4.jpg";
 import img5 from "../../assets/img/5.jpg";
 import img6 from "../../assets/img/8.jpg";
-export default function PolaroidBase() {
+
+
+
+
+
+
+function Polaroid({img,location,style}) {
+  return <Col md={4} className="PolaroidFrame" style={style}>
+  <img src={img} alt="sit"></img>
+        <h3> {location} </h3>
+        </Col>
+       
+}  
+function PolaroidBase() {
     return ( <div className="Dot">
      <h1> A FEW OF MY FAVORITE MOMENTS</h1>
         <Container>
@@ -30,3 +43,4 @@ export default function PolaroidBase() {
       </div>
       );
     }
+export {PolaroidBase,Polaroid};
