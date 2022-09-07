@@ -21,7 +21,7 @@ export default function Footer () {
               <a href="https://www.instagram.com/rezoluti0n/"><img src={instagram} alt="Icon" /></a>
               <a href="https://www.linkedin.com/in/ma-panha-526417237/"><img src={linkedin} alt="Icon" /></a>
             </div>
-            <a> <Button text="CONTACT ME" /> </a> 
+            {/* <a> <Button text="CONTACT ME" /> </a>  */}
           </Col>
         </Row>
       </Container>
