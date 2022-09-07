@@ -3,7 +3,7 @@ import "./ContactMe.css";
 import "tailwindcss/tailwind.css";
     
 export default function ContactMe() {
-      return (
+      return ( <div className="ContactMe">
         <form className="w-full max-w-lg mx-auto pt-5">
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
@@ -38,5 +38,5 @@ export default function ContactMe() {
           <div className="md:w-2/3"></div>
         </div>
       </form>
-      );
+      </div>);
     }   

@@ -1,4 +1,4 @@
-import "./Portfolio.css";
+// import "./Portfolio.css";
 import { Container, Row, Col } from "react-bootstrap";
 import google from "../../assets/img/googleLogo.png";
 import facebook from "../../assets/img/metaLogo.png";
