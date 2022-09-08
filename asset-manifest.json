@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.111fc9d2.css",
-    "main.js": "/static/js/main.0a3e6500.js",
+    "main.css": "/static/css/main.01aff9b1.css",
+    "main.js": "/static/js/main.8fbcd958.js",
     "static/media/crop.png": "/static/media/crop.97673d0dcbf40b261180.png",
     "static/media/C3.jpg": "/static/media/C3.77d16e0515ba6ec153f2.jpg",
     "static/media/C8.jpg": "/static/media/C8.77cb4f80d212340c0efe.jpg",
@@ -26,7 +26,7 @@
     "static/media/4.jpg": "/static/media/4.8f5d15518c0f24743ce8.jpg",
     "static/media/logo-small.png": "/static/media/logo-small.d2f3f142330eae190f9e.png",
     "static/media/logo-hover.png": "/static/media/logo-hover.ae97866b9115e3519c10.png",
-    "static/media/Glass.png": "/static/media/Glass.4b9ef4bf41416cf5745f.png",
+    "static/media/Glass.png": "/static/media/Glass.e230ca4f2d5e2fce08ff.png",
     "static/media/googleLogo.png": "/static/media/googleLogo.0590aaf0fe36e23dcc8c.png",
     "static/media/utaLogo.png": "/static/media/utaLogo.e41d4d5bad6c5e410727.png",
     "static/media/metaLogo.png": "/static/media/metaLogo.a8ac4eb44dc965839b0c.png",
@@ -37,11 +37,11 @@
     "static/media/twitter.svg": "/static/media/twitter.2ee4044b34e347393a7c55e49a299d8a.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.8259b0d9422b332cc396206603fef145.svg",
     "index.html": "/index.html",
-    "main.111fc9d2.css.map": "/static/css/main.111fc9d2.css.map",
-    "main.0a3e6500.js.map": "/static/js/main.0a3e6500.js.map"
+    "main.01aff9b1.css.map": "/static/css/main.01aff9b1.css.map",
+    "main.8fbcd958.js.map": "/static/js/main.8fbcd958.js.map"
   },
   "entrypoints": [
-    "static/css/main.111fc9d2.css",
-    "static/js/main.0a3e6500.js"
+    "static/css/main.01aff9b1.css",
+    "static/js/main.8fbcd958.js"
   ]
 }
