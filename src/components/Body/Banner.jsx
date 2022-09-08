@@ -1,6 +1,8 @@
 import {useEffect,useState} from "react";
 import "./Banner.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Parallax from "./Parralax";
+import Glass from "../../assets/img/Glass.png";
 // import TrackVisibility from "react-on-screen";
 // import { ArrowRightCircle } from "react-bootstrap-icons";
 // import CardStack from "../Buttons/CardStack";
@@ -63,9 +65,7 @@ return <div className="banner">
         {/* <img src={img1} style={{display:"inlineFlex",position:"absolute",right:"30rem",bottom:"10px"}} alt="yes"></img> */}
     </Col>
     <Col md={6}>
-    {/* <h1>
-        <span className="title">FULLSTACK</span> <span className="title-no">DEVELOPER</span> 
-        </h1> */}
+    <Parallax S={{right:"20%",bottom:"40%"}} glass={Glass}/>
     </Col>
     </Row>
 </Container>

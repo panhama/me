@@ -10,7 +10,7 @@ import ContactMe from './components/Body/ContactMe';
 import Footer from './components/Footer/Footer';
 import Portfolio from "./components/Body/Portfolio";
 import "./App.css";
-
+import ResizeWidth from './components/Body/Resize';
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Routes>
 
   
-    <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <ContactMe/> <Footer/>  </div>}/>
+    <Route exact path="/" element={<div>  <Navigation/>   <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <ContactMe/> <Footer/>  </div>}/>
 
     <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
 

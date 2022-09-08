@@ -10,7 +10,16 @@ h4{
 	padding-bottom: 30rem;
 	
 }
-
+.mockup:hover{
+	/* transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
+	transform: scale(1.1) rotate(5deg) translate(0, -10px);
+	transition: all .5s ease;
+}
+.mockup:after:hover{
+	/* transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
+	transform: scale(1.1) rotate(15deg) translate(0, -190px);
+	transition: all .5s ease-in-out;
+}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;

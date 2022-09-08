@@ -18,7 +18,7 @@ export default function Skills(params) {
     <Row>
     <h3 > COFFEESHOP UX UI DESIGN PROTOTYPE</h3>
     <Col md={2}>
-    <img src={UX2} style={{width:"75%",marginTop:"10rem"}} alt=""></img>
+    <img src={UX2} style={{width:"75%",marginTop:"10rem"}} className="mockup" alt=""></img>
     </Col>
     <Col md={2}>
     <img src={UX3} style={{width:"78%",marginTop:"10rem"}}  alt=""></img>

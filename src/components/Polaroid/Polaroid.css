@@ -10,12 +10,19 @@
     
   }
   .PolaroidFrame img{
-    padding: 1.75rem 1.75rem 1.5rem 1rem;
+    padding: 1.75rem 1.3rem 1.5rem 1rem;
     width:300px;
   }
   .PolaroidFrame:hover{
     z-index: 10;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    transform: rotate3d(0, 0, 1, 0deg) scale(1.1);
+    zoom: 105%;
+    transition: all .5s ease;
+  }
+  .PolaroidFrame img:hover{
+    z-index: 11;  
+
   }
   .PolaroidFrame h3 {
     text-align: center;
@@ -23,6 +30,20 @@
     color: rgb(83, 83, 83);
   }
 
+  /* @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+   */
+  
 .Dot{
   background-color: #ffffff;
   background-image: radial-gradient(#ffd300 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#ffd300 0.9500000000000001px, #ffffff 0.9500000000000001px);
@@ -30,5 +51,6 @@
   background-position: 0 0,17px 17px;
   padding-bottom: 15rem;
 }
+
 
 
