@@ -1,7 +1,7 @@
 import { logDOM } from "@testing-library/react";
 import Button2 from "../Buttons/Button 2";
 import "./Skills.css";
-export default function Error(props) {    
+export default function Error() {    
     return <div className="skills" style=
     {{padding:"25.5rem",
     textAlign:"center"}}>
