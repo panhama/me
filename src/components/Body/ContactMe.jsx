@@ -1,7 +1,10 @@
 import React from "react";
 import "./ContactMe.css";
 import "tailwindcss/tailwind.css";
-    
+import Button2 from "../Buttons/Button 2";   
+
+const dropdown = {value:"Building Websites",label:"Building Websites"}
+
 export default function ContactMe() {
  
       return ( <div className="ContactMe">
@@ -19,6 +22,7 @@ export default function ContactMe() {
             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
               E-mail
             </label>
+            {/* <select value={dropdown}/> */}
             <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email"/>
           </div>
         </div>
@@ -30,14 +34,19 @@ export default function ContactMe() {
             <textarea className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
           </div>
         </div>
+        
         <div className="md:flex md:items-center">
-          <div className="md:w-2/3">
-            <button className="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-5 rounded" type="button">
-              Lets's Connect
-            </button>
+        <div className="md:w-4/3">
+        <Button2 text="Let's Connect" onClick={(key)=>{
+          key.preventDefault();
+        console.log("connect button got click")
+        }}>
+        </Button2>
           </div>
-          <div className="md:w-2/3"></div>
         </div>
+          
+          
+        
       </form>
       </div>);
     }   
