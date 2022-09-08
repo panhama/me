@@ -7,8 +7,8 @@ font-size: 7rem;
 display: inline;
 animation: fadeIn 6s linear infinite;
 position: absolute; 
-right: 15%;
-bottom : 45%;
+right: 19%;
+bottom : 23%;
 
 /* right: 10rem; */
 }
@@ -18,12 +18,12 @@ bottom : 45%;
     color: #526b69;
     font-weight:700;
     font-size: 7rem;
-    animation: updown 3s linear infinite;
+    /* animation: updown 3s linear infinite;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    display: inline-block;
+    display: inline-block; */
     position: absolute; 
-    top: 40%;
+    top: 70%;
     left: 1%;
 } 
 .Title-no {
@@ -35,8 +35,8 @@ bottom : 45%;
     animation: fadeIn2 6s infinite backwards;
     opacity: 60%;
     position: absolute;
-    right: 14%;
-    bottom: 25%;
+    right: 18%;
+    bottom: 5%;
 }   
 @keyframes updown {
       0% {

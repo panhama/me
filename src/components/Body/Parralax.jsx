@@ -13,9 +13,8 @@ bottom: 50%; */}
 const Card = styled.div`
   border-radius: 10px;
   background-color: rgba(255,255,255,0.1);
-  
   box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset;
- backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
   height: 300px;
   width: 400px;
   padding: 1rem;

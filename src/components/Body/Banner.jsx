@@ -56,6 +56,7 @@ return <div className="banner">
 <Container>
         <Row>
             <Col md={6}>
+   
     <h1 className="panhama">
     PANHA MA
         </h1> 

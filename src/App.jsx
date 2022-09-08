@@ -21,7 +21,7 @@ function App() {
         <Routes>
 
   
-    <Route exact path="/" element={<div>  <Navigation/>   <Banner/> <Skills/> <PolaroidBase/> <Photography/>  <Carousels/> <ContactMe/> <Footer/>  </div>}/>
+    <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/>
 
     <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
 
