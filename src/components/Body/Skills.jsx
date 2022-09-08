@@ -7,7 +7,8 @@ import UX3 from "../../assets/img/UX3.png";
 import UX4 from "../../assets/img/UX4.png";
 import UX5 from "../../assets/img/UX5.png";
 import UX6 from "../../assets/img/UX6.png";
-import HiFi from "../../assets/img/HIGH FI.png";
+import Parallax from "./Parralax";
+
 import { Container } from "react-bootstrap";
 import Portfolio from "./Portfolio";
 export default function Skills(params) {

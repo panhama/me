@@ -3,6 +3,7 @@ import "./ContactMe.css";
 import "tailwindcss/tailwind.css";
     
 export default function ContactMe() {
+ 
       return ( <div className="ContactMe">
         <form className="w-full max-w-lg mx-auto pt-5">
         <div className="flex flex-wrap -mx-3 mb-6">
@@ -30,9 +31,9 @@ export default function ContactMe() {
           </div>
         </div>
         <div className="md:flex md:items-center">
-          <div className="md:w-1/3">
+          <div className="md:w-2/3">
             <button className="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-5 rounded" type="button">
-              Send
+              Lets's Connect
             </button>
           </div>
           <div className="md:w-2/3"></div>

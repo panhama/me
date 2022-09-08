@@ -11,24 +11,27 @@ import Footer from './components/Footer/Footer';
 import Portfolio from "./components/Body/Portfolio";
 import "./App.css";
 import ResizeWidth from './components/Body/Resize';
-
+import Error from './components/Body/Error';
 
 function App() {
     return (
     // <Router basename={process.env.PUBLIC_URL}>
     <HashRouter >
-  
-        <Routes>
+            <Routes>
 
   
     <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/>
 
     <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
 
-    <Route exact path="/portfolio" element={<Portfolio/>}/>
-<Route exact path="/contactme" element={<div>   <Navigation/> <ContactMe/> <Footer/>   </div>}></Route>
-    </Routes>
-    
+    {/* <Route exact path="/portfolio" element={<Portfolio/>}/> */}
+    <Route exact path="/contactme" element={<div>   <Navigation/> <ContactMe/> <Footer/>   </div>}></Route>
+
+<Route exact path="*" element={<Error/> }> </Route>
+  
+
+
+            </Routes>
     </HashRouter>
     // </Router>
     );

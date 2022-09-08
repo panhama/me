@@ -6,8 +6,6 @@ import Tilt from "react-parallax-tilt";
 
 const Container = styled.div`
 position: absolute; 
-${'' /* right: 50%;
-bottom: 50%; */}
 `;
 
 const Card = styled.div`
@@ -16,13 +14,13 @@ const Card = styled.div`
   box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset;
   backdrop-filter: blur(10px);
   height: 300px;
-  width: 400px;
+  width: 450px;
   padding: 1rem;
 `;
 
 const CardImage = styled.img`
   transform: translateZ(25px);
-  max-width: 55%;
+  max-width: 50%;
 `;
 
 export default function Parallax({S,glass}) {
