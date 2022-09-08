@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3c32228.css",
-    "main.js": "/static/js/main.9d9baed1.js",
+    "main.css": "/static/css/main.73102922.css",
+    "main.js": "/static/js/main.d8e5b56d.js",
     "static/media/crop.png": "/static/media/crop.97673d0dcbf40b261180.png",
     "static/media/C3.jpg": "/static/media/C3.77d16e0515ba6ec153f2.jpg",
     "static/media/C8.jpg": "/static/media/C8.77cb4f80d212340c0efe.jpg",
@@ -24,6 +24,7 @@
     "static/media/3.jpg": "/static/media/3.f8b989f9afb8c11dc7c1.jpg",
     "static/media/4.jpg": "/static/media/4.8f5d15518c0f24743ce8.jpg",
     "static/media/logo-small.png": "/static/media/logo-small.d2f3f142330eae190f9e.png",
+    "static/media/ROCKET WILDNESS.ttf": "/static/media/ROCKET WILDNESS.596d363dead4c437e0ab.ttf",
     "static/media/logo-hover.png": "/static/media/logo-hover.ae97866b9115e3519c10.png",
     "static/media/Glass.png": "/static/media/Glass.e230ca4f2d5e2fce08ff.png",
     "static/media/googleLogo.png": "/static/media/googleLogo.0590aaf0fe36e23dcc8c.png",
@@ -36,11 +37,11 @@
     "static/media/twitter.svg": "/static/media/twitter.2ee4044b34e347393a7c55e49a299d8a.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.8259b0d9422b332cc396206603fef145.svg",
     "index.html": "/index.html",
-    "main.a3c32228.css.map": "/static/css/main.a3c32228.css.map",
-    "main.9d9baed1.js.map": "/static/js/main.9d9baed1.js.map"
+    "main.73102922.css.map": "/static/css/main.73102922.css.map",
+    "main.d8e5b56d.js.map": "/static/js/main.d8e5b56d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3c32228.css",
-    "static/js/main.9d9baed1.js"
+    "static/css/main.73102922.css",
+    "static/js/main.d8e5b56d.js"
   ]
 }
