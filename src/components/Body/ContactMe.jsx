@@ -21,8 +21,8 @@ export default function Contact() {
   }
 
   const ContactMe = () => {
-    return ( <div className="Dot" style={{paddingTop:"5rem"}}>
-          <form className="w-full max-w-lg mx-auto pt-5">
+    return ( <div className="Dot" style={{paddingTop:"7rem"}}>
+          <form className="w-full max-w-lg mx-auto">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">

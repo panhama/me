@@ -51,8 +51,8 @@ export const Navigation = ()=>{
             <span className="navbar-text">
               <div className="social-icon">
                 {/* <a href="https://twitter.com/panha_ma"><img src={twitter} alt=""/></a> */}
-                <a href=""><img src={github} alt=""/></a>
-                <a href=""><img src={discord} alt=""/></a>
+                <a href="https://github.com/panhama"><img src={github} alt=""/></a>
+                <a href="http://www.discord.com/users/pan#2832"><img src={discord} alt=""/></a>
                 <a href="https://www.instagram.com/rezoluti0n/"><img src={instagram} alt=""/></a>
                 <a href="https://www.linkedin.com/in/ma-panha-526417237/"><img src={linkedin} alt=""/></a>
                

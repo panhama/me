@@ -1,13 +1,7 @@
 .footer {
-    /* background-image: url('./assets/img/footer-bg.png'); */
-    /* background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #ffffff; */
   background-image:  radial-gradient(#ffd300 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#ffd300 0.9500000000000001px, #ffffff 0.9500000000000001px);
   background-size: 34px 34px;
   background-position: 0 0,17px 17px;
-  /* padding-bottom: 15rem; */
   }
   .newsletter-bx {
     background: #FFFFFF;
@@ -69,9 +63,7 @@
     letter-spacing: 0.5px;
     border-radius: 18px;
   }
-  .footer img {
-    width: 26%;
-  }
+ 
   .footer p {
     font-weight: 400;
     font-size: 14px;

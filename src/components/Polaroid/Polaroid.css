@@ -11,7 +11,6 @@
   }
   .PolaroidFrame h3{ 
     font-family: 'Open Sans', sans-serif;
-
     font-weight: 600;
     
   }
@@ -23,12 +22,11 @@
   .PolaroidFrame:hover{
     z-index: 10;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-    transform: rotate3d(0, 0, 1, 0deg) scale(1.1)!important;
+    transform: rotate3d(0, 0, 1, 0deg) scale(1.2) !important;
     transition: all .5s ease;
   }
   .PolaroidFrame img:hover{
     z-index: 11;  
-
   }
   .PolaroidFrame h3 {
     text-align: center;
