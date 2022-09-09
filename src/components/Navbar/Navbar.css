@@ -9,6 +9,9 @@ nav.navbar {
     top: 0;
     z-index: 9999;
     transition:  0.32s ease-in-out;
+    font-family: "ROCKET WILDNESS";
+    font-weight: bold;
+    /* font-family: "open sans"; */
   }
 
   nav.navbar a.navbar-brand {
@@ -29,6 +32,7 @@ nav.navbar {
   span.navbar-text {
       display: flex;
       align-items: center;
+      
   }
   .social-icon {
       display: inline-block;

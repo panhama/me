@@ -11,10 +11,12 @@ position: absolute;
 const Card = styled.div`
   border-radius: 10px;
   background-color: rgba(255,255,255,0.1);
-  box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset;
-  backdrop-filter: blur(10px);
-  height: 300px;
-  width: 450px;
+  box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px .5px inset;
+  backdrop-filter: blur(7px);
+  ${'' /* height: 300px;
+  width: 450px; */}
+  height:18.75rem;
+  width:28.125rem;
   padding: 1rem;
 `;
 

@@ -9,7 +9,7 @@ export default function Portfolio(props) {
     <Container> 
     <Row>        
         <Col>              
-            <div md={6}> 
+            <div md={6} className="mx-auto"> 
             <p> Hello there i'm Pan, i am a developer and UX/UI designer from Dallas, Fort Worth. </p>
             <p> I have a passion for creating beautiful and functional websites and applications. </p>
             <p> I am currently a student at the University of Texas at Arlington, pursuing a Bachelors in Computer Science. </p>

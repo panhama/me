@@ -2,9 +2,20 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
 }
+
+@font-face {
+  font-family: ROCKET WILDNESS;
+  src: url("../src/assets/rocket_wildness/ROCKET WILDNESS.ttf") format("opentype");
+}
+@font-face {
+  font-family: TESLA;
+  src: url( "../src/assets/tesla/TESLA.ttf") format("opentype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 .banner {
   margin: 0 0 0 0;
-  background: url('./assets/img/background.jpg')repeat fixed;
+  background: url('./assets/img/background.jpg')repeat fixed ;
+  /* background: linear-gradient(to bottom, rgba(126, 103, 55, 0.5), rgba(255, 255, 255, 0) 10%, transparent 10%), url('./assets/img/background.jpg')repeat fixed ; */
   height: 100vh;
   width: 100%;
   display: inline-flex;
@@ -12,18 +23,8 @@ html {
   /* background-repeat: no-repeat; */
   background-size: cover;
   }
-
-/* .banner-crop{
-  background-image: url('./assets/img/crop.png');
-
-  position: relative;
-  left: 50px;
-  
-  padding: 15rem;
-  
- 
-  background-size: cover; 
-}   */
+  /* linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+  url('images/background.jpg'); */
 .card-test{
     position: absolute;
     margin: 10px;
@@ -43,5 +44,5 @@ html {
   
   .tilt {
     transform-style: preserve-3d;
-    /* transform: perspective(1000px); */
+    /* transform: perspective(1011px); */
   }

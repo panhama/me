@@ -1,52 +1,51 @@
 .title {
 color: #fcfcfc;
-font-weight:700;
+font-weight: bold;
 font-size: 7rem;
-/* margin: 0 30rem; */
-
+font-family: "ROCKET WILDNESS";
 display: inline;
 animation: fadeIn 6s linear infinite;
 position: absolute; 
-right: 19%;
+right: 18%;
 bottom : 23%;
-
-/* right: 10rem; */
 }
 
 .panhama {
     white-space: nowrap;
     color: #526b69;
-    font-weight:700;
-    font-size: 7rem;
-    /* animation: updown 3s linear infinite;
+    font-size: 4rem;
+    font-family: "TESLA", sans-serif;
+    letter-spacing: 0.5rem;
+    animation: updown 3s linear infinite;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    display: inline-block; */
+    display: inline-block;
     position: absolute; 
-    top: 70%;
+    top: 72%;
     left: 1%;
 } 
 .Title-no {
     color: #000000;
     font-weight:700;
     font-size: 7rem;
+    font-family: "ROCKET WILDNESS";
     margin: 0;
     display: inline;
     animation: fadeIn2 6s infinite backwards;
     opacity: 60%;
     position: absolute;
-    right: 18%;
-    bottom: 5%;
+    right: 10.5%;
+    bottom: 15%;
 }   
 @keyframes updown {
       0% {
-          transform: translateY(-20px);
+          transform: translateY(-5px);
       }
       50% {
-          transform: translateY(20px);
+          transform: translateY(5px);
       }
       100% {
-          transform: translateY(-20px);
+          transform: translateY(-5px);
       }
   }
 
