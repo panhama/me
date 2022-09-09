@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.73102922.css",
-    "main.js": "/static/js/main.d8e5b56d.js",
+    "main.css": "/static/css/main.0213d3f1.css",
+    "main.js": "/static/js/main.d0a1b1a1.js",
     "static/media/crop.png": "/static/media/crop.97673d0dcbf40b261180.png",
     "static/media/C3.jpg": "/static/media/C3.77d16e0515ba6ec153f2.jpg",
     "static/media/C8.jpg": "/static/media/C8.77cb4f80d212340c0efe.jpg",
@@ -30,6 +30,7 @@
     "static/media/googleLogo.png": "/static/media/googleLogo.0590aaf0fe36e23dcc8c.png",
     "static/media/utaLogo.png": "/static/media/utaLogo.e41d4d5bad6c5e410727.png",
     "static/media/metaLogo.png": "/static/media/metaLogo.a8ac4eb44dc965839b0c.png",
+    "static/media/TESLA.ttf": "/static/media/TESLA.7e1592bd859398505313.ttf",
     "static/media/udemy.png": "/static/media/udemy.e1e87616e9d2a5ba6c48.png",
     "static/media/github.svg": "/static/media/github.171b179b9abcd796dce0204e58bb5c5f.svg",
     "static/media/discord.svg": "/static/media/discord.ff6dbd687bb5d7a23c135e772c391d73.svg",
@@ -37,11 +38,11 @@
     "static/media/twitter.svg": "/static/media/twitter.2ee4044b34e347393a7c55e49a299d8a.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.8259b0d9422b332cc396206603fef145.svg",
     "index.html": "/index.html",
-    "main.73102922.css.map": "/static/css/main.73102922.css.map",
-    "main.d8e5b56d.js.map": "/static/js/main.d8e5b56d.js.map"
+    "main.0213d3f1.css.map": "/static/css/main.0213d3f1.css.map",
+    "main.d0a1b1a1.js.map": "/static/js/main.d0a1b1a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.73102922.css",
-    "static/js/main.d8e5b56d.js"
+    "static/css/main.0213d3f1.css",
+    "static/js/main.d0a1b1a1.js"
   ]
 }
