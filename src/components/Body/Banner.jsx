@@ -66,7 +66,7 @@ return <div className="banner">
         {/* <img src={img1} style={{display:"inlineFlex",position:"absolute",right:"30rem",bottom:"10px"}} alt="yes"></img> */}
     </Col>
     <Col md={6}>
-    <Parallax S={{right:"20%",bottom:"40%"}} glass={Glass}/>
+    <Parallax S={{right:"20%",bottom:"45%"}} glass={Glass}/>
     </Col>
     </Row>
 </Container>

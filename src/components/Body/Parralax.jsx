@@ -1,8 +1,6 @@
 import "../../App.css";
-import logo from "../../assets/img/logo-hover.png";
 import styled from "styled-components";
 import Tilt from "react-parallax-tilt";
-// import glass from "../../assets/img/Glass.png";
 
 const Container = styled.div`
 position: absolute; 
@@ -31,6 +29,7 @@ export default function Parallax({S,glass}) {
       <Container style={S}>
         <Tilt
           className="tilt"
+         
           tiltMaxAngleX={40}
           tiltMaxAngleY={40}
           perspective={1000}

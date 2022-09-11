@@ -10,7 +10,7 @@ nav.navbar {
     z-index: 9999;
     transition:  0.32s ease-in-out;
     font-family: "ROCKET WILDNESS";
-    font-weight: bold;
+    font-weight: bold;  
     /* font-family: "open sans"; */
   }
 
@@ -105,9 +105,11 @@ nav.navbar {
     top: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
+    
   }
   .navbar-text button:hover {
     color: #121212;
+    
   }
   .navbar-text button:hover::before {
       content: "";

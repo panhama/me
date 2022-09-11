@@ -13,16 +13,17 @@ bottom : 23%;
 .panhama {
     white-space: nowrap;
     color: #526b69;
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: "TESLA", sans-serif;
+    font-style: italic;
     letter-spacing: 0.5rem;
     animation: updown 3s linear infinite;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     display: inline-block;
     position: absolute; 
-    top: 72%;
-    left: 1%;
+    top: 58%;
+    left: 15%;
 } 
 .Title-no {
     color: #000000;
@@ -85,12 +86,18 @@ bottom : 23%;
 @media screen and (max-width: 600px) {
     .panhama {
       margin: auto;
-      padding-top: 30rem;
+      padding-top: 3rem;
       font-size: 4rem;
+      margin-left: -14%;
     }
     .title {
       margin: auto;
-      padding-top: 30rem;
+      padding-top: 3rem;
+      font-size: 4rem;
+    }
+    .Title-no {
+      margin: auto;
+      padding-top: 3rem;
       font-size: 4rem;
     }
   }

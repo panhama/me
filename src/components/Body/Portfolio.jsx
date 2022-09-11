@@ -10,6 +10,7 @@ export default function Portfolio(props) {
     <Row>        
         <Col md={6} lg={true}>              
             <div  className="mx-auto" > 
+            <h2>Meet Panha  <span> Ma</span> </h2> 
             <p>Hello there i'm Pan, i am a developer and UX/UI designer from Dallas, Fort Worth. 
              I have a passion for creating beautiful and functional websites and applications.
              I am currently a student at the University of Texas at Arlington, pursuing a Bachelors in Computer Science. 

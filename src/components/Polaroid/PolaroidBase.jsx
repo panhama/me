@@ -11,10 +11,6 @@ import img5 from "../../assets/img/5.jpg";
 import img6 from "../../assets/img/8.jpg";
 
 
-
-
-
-
 function Polaroid({img,location,style}) {
   return <Col md={4} className="PolaroidFrame" style={style}>
   <img src={img} alt="sit"></img>
