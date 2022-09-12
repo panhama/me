@@ -19,13 +19,14 @@ function App() {
     <HashRouter >
             <Routes>
 
-  
-    {/* <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/>
+            <Route exact path="/beta" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/>
+
+    {/* <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/> */}
 
     <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
 
     <Route exact path="/portfolio" element={<div>  <Portfolio/> <Footer/>  </div>}/>
-    <Route exact path="/contactme" element={<div>   <Navigation/> <ContactMe/> <Footer/>   </div>}></Route> */}
+    <Route exact path="/contactme" element={<div>   <Navigation/> <ContactMe/> <Footer/>   </div>}></Route>
 
 <Route exact path="*" element={<Error/> }> </Route>
   
