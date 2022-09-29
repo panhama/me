@@ -12,7 +12,7 @@ export default function Contact() {
     e.preventDefault();
     setThankyou(true);
   }
-  function Thanks(params) {
+  const Thanks =(params)=> {
     return(
       <div className="Dot" style={{paddingTop:"15rem"}}>
       <h2 style={{textAlign:"center"}}> THANK YOU </h2> 
@@ -64,3 +64,8 @@ export default function Contact() {
    {thankYou ? <Thanks/> : <ContactMe/>} 
       </div>
       ); }   
+
+
+
+
+

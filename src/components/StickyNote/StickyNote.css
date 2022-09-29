@@ -1,0 +1,8 @@
+.inputText input::placeholder{
+  color: black;
+}
+
+.inputText input{
+  outline: none;
+}
+

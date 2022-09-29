@@ -10,17 +10,18 @@ import ContactMe from './components/Body/ContactMe';
 import Footer from './components/Footer/Footer';
 import Portfolio from "./components/Body/Portfolio";
 import "./App.css";
-import ResizeWidth from './components/Body/Resize';
 import Error from './components/Body/Error';
+import { StickyNote } from './components/StickyNote/StickyNote';
+import Mobile from './components/Body/Mobile';
 
 function App() {
     return (
     // <Router basename={process.env.PUBLIC_URL}>
     <HashRouter >
             <Routes>
-
-            <Route exact path="/beta" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/>
-
+                <Route path="/mobile" element={<Mobile/>} />
+            <Route exact path="/beta" element={<div>  <Navigation/><Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/>
+                <Route exact path="/stickynote" element={<div>   <StickyNote/>  </div>}/>
     {/* <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/> */}
 
     <Route exact path="/photography" element={<div>  <Photography/> <Carousels/> <Footer/>  </div>}/>
