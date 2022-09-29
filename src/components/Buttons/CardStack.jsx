@@ -17,7 +17,7 @@ function CardStack({ Component, pageProps }) {
       )}
       </motion.div>
     </div>
-    
+
   )
 }
 
