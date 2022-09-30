@@ -1,7 +1,12 @@
 .logo{
-    width:8rem
+    width:8rem;
+    
 }
 
+.logo:hover{
+    animation: all ease-in-out 1s infinite;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+}
 nav.navbar {
     padding: 18px 0;
     position: fixed;

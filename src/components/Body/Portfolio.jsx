@@ -4,11 +4,15 @@ import google from "../../assets/img/googleLogo.png";
 import facebook from "../../assets/img/metaLogo.png";
 import uta from "../../assets/img/utaLogo.png";
 import udemy from "../../assets/img/udemy.png";
+import P1 from "../../assets/img/P1.jpg";
 export default function Portfolio(props) {
     return <div >
     <Container> 
     <Row>        
-        <Col md={6} lg={true}>              
+            <Col md={6} lg={true}> 
+                    <img src={P1} alt="" width="60%" style={{marginTop:"-75px",position:"relative",display:"inline"}}/>
+                      </Col> 
+                      <Col md={6} lg={true}>              
             <div  className="mx-auto" > 
             <h2>Meet Panha  <span> Ma</span> </h2> 
             <p>Hello there i'm Pan, i am a developer and UX/UI designer from Dallas, Fort Worth. 
@@ -26,9 +30,6 @@ export default function Portfolio(props) {
                       </div> 
             </div>
             </Col>  
-            <Col md={6} lg={true}> 
-                    
-                      </Col> 
     </Row> 
 </Container> 
 </div> ; 
