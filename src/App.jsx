@@ -19,7 +19,7 @@ function App() {
     // <Router basename={process.env.PUBLIC_URL}>
     <HashRouter >
             <Routes>
-                <Route path="/mobile" element={<Mobile/>} />
+                <Route path="/mobile" element={<div><Mobile/></div> } />
             <Route exact path="/beta" element={<div>  <Navigation/><Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/>
                 <Route exact path="/stickynote" element={<div>   <StickyNote/>  </div>}/>
     {/* <Route exact path="/" element={<div>  <Navigation/> <Banner/> <Skills/> <PolaroidBase/> <Photography/> <Carousels/> <ContactMe/> <Footer/>  </div>}/> */}
